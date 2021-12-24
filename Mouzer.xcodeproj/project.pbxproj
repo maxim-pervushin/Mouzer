@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73BC62D6CF5566EC7A54C2E2 /* AboutLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC69B9CAF8C27B0DA62EA4 /* AboutLayout.swift */; };
+		73BC68148D8B60F3C5D5D3E0 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC617730152EF0DFA4150F /* AboutVC.swift */; };
+		73BC6CCE0FDAE00EAA07FD0C /* NSTextField+createLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC63AA8DD9897414663F74 /* NSTextField+createLinkLabel.swift */; };
+		C5EFF2A82773347500775B22 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2832773347400775B22 /* main.swift */; };
+		C5EFF2AA2773347500775B22 /* RemapListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2872773347400775B22 /* RemapListVC.swift */; };
+		C5EFF2AB2773347500775B22 /* RemapListLayout.RemapToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2882773347400775B22 /* RemapListLayout.RemapToRow.swift */; };
+		C5EFF2AC2773347500775B22 /* RemapListLayout.RemapFromRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2892773347400775B22 /* RemapListLayout.RemapFromRow.swift */; };
+		C5EFF2AD2773347500775B22 /* RemapListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF28A2773347400775B22 /* RemapListLayout.swift */; };
+		C5EFF2AE2773347500775B22 /* RemapEditorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF28C2773347400775B22 /* RemapEditorVC.swift */; };
+		C5EFF2AF2773347500775B22 /* RemapEditorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF28D2773347400775B22 /* RemapEditorLayout.swift */; };
+		C5EFF2B02773347500775B22 /* RemapEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF28E2773347400775B22 /* RemapEventView.swift */; };
+		C5EFF2B12773347500775B22 /* RemapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF28F2773347400775B22 /* RemapManager.swift */; };
+		C5EFF2B22773347500775B22 /* StatusBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2902773347400775B22 /* StatusBarManager.swift */; };
+		C5EFF2B42773347500775B22 /* Remap.Event+descriptionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2932773347400775B22 /* Remap.Event+descriptionString.swift */; };
+		C5EFF2B52773347500775B22 /* Remap.Event+fromDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2942773347400775B22 /* Remap.Event+fromDictionary.swift */; };
+		C5EFF2B62773347500775B22 /* Remap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2952773347400775B22 /* Remap.swift */; };
+		C5EFF2B72773347500775B22 /* Remap.Event+dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2962773347400775B22 /* Remap.Event+dictionary.swift */; };
+		C5EFF2B82773347500775B22 /* Remap.Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2972773347400775B22 /* Remap.Event.swift */; };
+		C5EFF2B92773347500775B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5EFF2982773347400775B22 /* Assets.xcassets */; };
+		C5EFF2BB2773347500775B22 /* NSTextField+createLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF29B2773347400775B22 /* NSTextField+createLabel.swift */; };
+		C5EFF2BD2773347500775B22 /* NSButton+createPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF29D2773347400775B22 /* NSButton+createPushButton.swift */; };
+		C5EFF2BE2773347500775B22 /* Collection+subscript+safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF29E2773347400775B22 /* Collection+subscript+safe.swift */; };
+		C5EFF2BF2773347500775B22 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2A12773347400775B22 /* ContainerVC.swift */; };
+		C5EFF2C02773347500775B22 /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2A22773347400775B22 /* String+localized.swift */; };
+		C5EFF2C12773347500775B22 /* AppUpdateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2A32773347400775B22 /* AppUpdateInfo.swift */; };
+		C5EFF2C22773347500775B22 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2A42773347400775B22 /* LayoutView.swift */; };
+		C5EFF2C32773347500775B22 /* ValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2A52773347400775B22 /* ValueView.swift */; };
+		C5EFF2C42773347500775B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2A62773347400775B22 /* AppDelegate.swift */; };
+		C5EFF2C52773347500775B22 /* EventProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFF2A72773347400775B22 /* EventProcessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73BC617730152EF0DFA4150F /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		73BC63AA8DD9897414663F74 /* NSTextField+createLinkLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextField+createLinkLabel.swift"; sourceTree = "<group>"; };
+		73BC69B9CAF8C27B0DA62EA4 /* AboutLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutLayout.swift; sourceTree = "<group>"; };
+		C5EFF270277332EF00775B22 /* Mouzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mouzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EFF27C277332F000775B22 /* Mouzer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mouzer.entitlements; sourceTree = "<group>"; };
+		C5EFF2822773347400775B22 /* Mouzer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mouzer-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5EFF2832773347400775B22 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C5EFF2872773347400775B22 /* RemapListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapListVC.swift; sourceTree = "<group>"; };
+		C5EFF2882773347400775B22 /* RemapListLayout.RemapToRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapListLayout.RemapToRow.swift; sourceTree = "<group>"; };
+		C5EFF2892773347400775B22 /* RemapListLayout.RemapFromRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapListLayout.RemapFromRow.swift; sourceTree = "<group>"; };
+		C5EFF28A2773347400775B22 /* RemapListLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapListLayout.swift; sourceTree = "<group>"; };
+		C5EFF28C2773347400775B22 /* RemapEditorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapEditorVC.swift; sourceTree = "<group>"; };
+		C5EFF28D2773347400775B22 /* RemapEditorLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapEditorLayout.swift; sourceTree = "<group>"; };
+		C5EFF28E2773347400775B22 /* RemapEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapEventView.swift; sourceTree = "<group>"; };
+		C5EFF28F2773347400775B22 /* RemapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemapManager.swift; sourceTree = "<group>"; };
+		C5EFF2902773347400775B22 /* StatusBarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarManager.swift; sourceTree = "<group>"; };
+		C5EFF2932773347400775B22 /* Remap.Event+descriptionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remap.Event+descriptionString.swift"; sourceTree = "<group>"; };
+		C5EFF2942773347400775B22 /* Remap.Event+fromDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remap.Event+fromDictionary.swift"; sourceTree = "<group>"; };
+		C5EFF2952773347400775B22 /* Remap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remap.swift; sourceTree = "<group>"; };
+		C5EFF2962773347400775B22 /* Remap.Event+dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remap.Event+dictionary.swift"; sourceTree = "<group>"; };
+		C5EFF2972773347400775B22 /* Remap.Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remap.Event.swift; sourceTree = "<group>"; };
+		C5EFF2982773347400775B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5EFF29B2773347400775B22 /* NSTextField+createLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextField+createLabel.swift"; sourceTree = "<group>"; };
+		C5EFF29D2773347400775B22 /* NSButton+createPushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+createPushButton.swift"; sourceTree = "<group>"; };
+		C5EFF29E2773347400775B22 /* Collection+subscript+safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+subscript+safe.swift"; sourceTree = "<group>"; };
+		C5EFF2A12773347400775B22 /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		C5EFF2A22773347400775B22 /* String+localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
+		C5EFF2A32773347400775B22 /* AppUpdateInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUpdateInfo.swift; sourceTree = "<group>"; };
+		C5EFF2A42773347400775B22 /* LayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
+		C5EFF2A52773347400775B22 /* ValueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueView.swift; sourceTree = "<group>"; };
+		C5EFF2A62773347400775B22 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5EFF2A72773347400775B22 /* EventProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProcessor.swift; sourceTree = "<group>"; };
+		C5EFF2C6277334B400775B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5EFF26D277332EE00775B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73BC6461B937958106368430 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				73BC617730152EF0DFA4150F /* AboutVC.swift */,
+				73BC69B9CAF8C27B0DA62EA4 /* AboutLayout.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		C5EFF267277332EE00775B22 = {
+			isa = PBXGroup;
+			children = (
+				C5EFF272277332EF00775B22 /* Mouzer */,
+				C5EFF271277332EF00775B22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5EFF271277332EF00775B22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF270277332EF00775B22 /* Mouzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5EFF272277332EF00775B22 /* Mouzer */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF2C6277334B400775B22 /* Info.plist */,
+				C5EFF2A62773347400775B22 /* AppDelegate.swift */,
+				C5EFF2982773347400775B22 /* Assets.xcassets */,
+				C5EFF29F2773347400775B22 /* Base.lproj */,
+				C5EFF2A02773347400775B22 /* Common */,
+				C5EFF2912773347400775B22 /* Data */,
+				C5EFF2A72773347400775B22 /* EventProcessor.swift */,
+				C5EFF2992773347400775B22 /* Extensions */,
+				C5EFF2832773347400775B22 /* main.swift */,
+				C5EFF28F2773347400775B22 /* RemapManager.swift */,
+				C5EFF2902773347400775B22 /* StatusBarManager.swift */,
+				C5EFF2852773347400775B22 /* UI */,
+				C5EFF27C277332F000775B22 /* Mouzer.entitlements */,
+				C5EFF2822773347400775B22 /* Mouzer-Bridging-Header.h */,
+			);
+			path = Mouzer;
+			sourceTree = "<group>";
+		};
+		C5EFF2852773347400775B22 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF2862773347400775B22 /* RemapList */,
+				C5EFF28B2773347400775B22 /* RemapEditor */,
+				73BC6461B937958106368430 /* About */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C5EFF2862773347400775B22 /* RemapList */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF2872773347400775B22 /* RemapListVC.swift */,
+				C5EFF2882773347400775B22 /* RemapListLayout.RemapToRow.swift */,
+				C5EFF2892773347400775B22 /* RemapListLayout.RemapFromRow.swift */,
+				C5EFF28A2773347400775B22 /* RemapListLayout.swift */,
+			);
+			path = RemapList;
+			sourceTree = "<group>";
+		};
+		C5EFF28B2773347400775B22 /* RemapEditor */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF28C2773347400775B22 /* RemapEditorVC.swift */,
+				C5EFF28D2773347400775B22 /* RemapEditorLayout.swift */,
+				C5EFF28E2773347400775B22 /* RemapEventView.swift */,
+			);
+			path = RemapEditor;
+			sourceTree = "<group>";
+		};
+		C5EFF2912773347400775B22 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF2932773347400775B22 /* Remap.Event+descriptionString.swift */,
+				C5EFF2942773347400775B22 /* Remap.Event+fromDictionary.swift */,
+				C5EFF2952773347400775B22 /* Remap.swift */,
+				C5EFF2962773347400775B22 /* Remap.Event+dictionary.swift */,
+				C5EFF2972773347400775B22 /* Remap.Event.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C5EFF2992773347400775B22 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF29B2773347400775B22 /* NSTextField+createLabel.swift */,
+				C5EFF29D2773347400775B22 /* NSButton+createPushButton.swift */,
+				C5EFF29E2773347400775B22 /* Collection+subscript+safe.swift */,
+				73BC63AA8DD9897414663F74 /* NSTextField+createLinkLabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5EFF29F2773347400775B22 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		C5EFF2A02773347400775B22 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C5EFF2A12773347400775B22 /* ContainerVC.swift */,
+				C5EFF2A22773347400775B22 /* String+localized.swift */,
+				C5EFF2A32773347400775B22 /* AppUpdateInfo.swift */,
+				C5EFF2A42773347400775B22 /* LayoutView.swift */,
+				C5EFF2A52773347400775B22 /* ValueView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5EFF26F277332EE00775B22 /* Mouzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5EFF27F277332F000775B22 /* Build configuration list for PBXNativeTarget "Mouzer" */;
+			buildPhases = (
+				C5EFF26C277332EE00775B22 /* Sources */,
+				C5EFF26D277332EE00775B22 /* Frameworks */,
+				C5EFF26E277332EE00775B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mouzer;
+			productName = Mouzer;
+			productReference = C5EFF270277332EF00775B22 /* Mouzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5EFF268277332EE00775B22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C5EFF26F277332EE00775B22 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = C5EFF26B277332EE00775B22 /* Build configuration list for PBXProject "Mouzer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5EFF267277332EE00775B22;
+			productRefGroup = C5EFF271277332EF00775B22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5EFF26F277332EE00775B22 /* Mouzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5EFF26E277332EE00775B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EFF2B92773347500775B22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5EFF26C277332EE00775B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EFF2AC2773347500775B22 /* RemapListLayout.RemapFromRow.swift in Sources */,
+				C5EFF2AB2773347500775B22 /* RemapListLayout.RemapToRow.swift in Sources */,
+				C5EFF2BF2773347500775B22 /* ContainerVC.swift in Sources */,
+				C5EFF2BE2773347500775B22 /* Collection+subscript+safe.swift in Sources */,
+				C5EFF2C42773347500775B22 /* AppDelegate.swift in Sources */,
+				C5EFF2AE2773347500775B22 /* RemapEditorVC.swift in Sources */,
+				C5EFF2BD2773347500775B22 /* NSButton+createPushButton.swift in Sources */,
+				C5EFF2BB2773347500775B22 /* NSTextField+createLabel.swift in Sources */,
+				C5EFF2AA2773347500775B22 /* RemapListVC.swift in Sources */,
+				C5EFF2C22773347500775B22 /* LayoutView.swift in Sources */,
+				C5EFF2C32773347500775B22 /* ValueView.swift in Sources */,
+				C5EFF2B42773347500775B22 /* Remap.Event+descriptionString.swift in Sources */,
+				C5EFF2C52773347500775B22 /* EventProcessor.swift in Sources */,
+				C5EFF2C12773347500775B22 /* AppUpdateInfo.swift in Sources */,
+				C5EFF2C02773347500775B22 /* String+localized.swift in Sources */,
+				C5EFF2B82773347500775B22 /* Remap.Event.swift in Sources */,
+				C5EFF2AF2773347500775B22 /* RemapEditorLayout.swift in Sources */,
+				C5EFF2B62773347500775B22 /* Remap.swift in Sources */,
+				C5EFF2B12773347500775B22 /* RemapManager.swift in Sources */,
+				C5EFF2B22773347500775B22 /* StatusBarManager.swift in Sources */,
+				C5EFF2AD2773347500775B22 /* RemapListLayout.swift in Sources */,
+				C5EFF2B52773347500775B22 /* Remap.Event+fromDictionary.swift in Sources */,
+				C5EFF2A82773347500775B22 /* main.swift in Sources */,
+				C5EFF2B72773347500775B22 /* Remap.Event+dictionary.swift in Sources */,
+				C5EFF2B02773347500775B22 /* RemapEventView.swift in Sources */,
+				73BC68148D8B60F3C5D5D3E0 /* AboutVC.swift in Sources */,
+				73BC62D6CF5566EC7A54C2E2 /* AboutLayout.swift in Sources */,
+				73BC6CCE0FDAE00EAA07FD0C /* NSTextField+createLinkLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5EFF27D277332F000775B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5EFF27E277332F000775B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C5EFF280277332F000775B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mouzer/Mouzer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRM2L78456;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mouzer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximpervushin.Mouzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mouzer/Mouzer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5EFF281277332F000775B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mouzer/Mouzer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRM2L78456;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mouzer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximpervushin.Mouzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mouzer/Mouzer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5EFF26B277332EE00775B22 /* Build configuration list for PBXProject "Mouzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EFF27D277332F000775B22 /* Debug */,
+				C5EFF27E277332F000775B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5EFF27F277332F000775B22 /* Build configuration list for PBXNativeTarget "Mouzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EFF280277332F000775B22 /* Debug */,
+				C5EFF281277332F000775B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5EFF268277332EE00775B22 /* Project object */;
+}
